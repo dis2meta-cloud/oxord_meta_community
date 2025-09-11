@@ -1,0 +1,35 @@
+<!-- oxord_repair/views/repair_order_views.xml -->
+<odoo>
+  <record id="view_repair_order_form_oxord" model="ir.ui.view">
+    <field name="name">repair.order.form.oxord</field>
+    <field name="model">repair.order</field>
+    <field name="inherit_id" ref="repair.view_repair_order_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//header" position="inside">
+        <field name="branch_code"/>
+        <field name="work_order_ref"/>
+      </xpath>
+
+      <xpath expr="//sheet/notebook" position="inside">
+        <page string="Device Info">
+          <group>
+            <field name="device_brand"/>
+            <field name="device_model"/>
+            <field name="serial_number"/>
+            <field name="imei"/>
+          </group>
+        </page>
+        <page string="Repair">
+          <group>
+            <field name="reported_issue" />
+            <field name="diagnosis" />
+            <field name="technician_id" />
+            <field name="expected_completion_date" />
+            <field name="technician_note" />
+            <field name="coordinator_note" />
+          </group>
+        </page>
+      </xpath>
+    </field>
+  </record>
+</odoo>

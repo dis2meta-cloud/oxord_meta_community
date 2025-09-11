@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+*.sqlite3
+*.log
+
+# Odoo filestore and db
+.local/
+/filestore/
+/filestore/*
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Docker
+/postgres-data/
+/odoo-data/

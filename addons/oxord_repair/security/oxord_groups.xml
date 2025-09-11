@@ -1,0 +1,15 @@
+<!-- oxord_repair/security/oxord_groups.xml -->
+<odoo>
+  <record id="group_oxord_coordinator" model="res.groups">
+    <field name="name">Oxord / Coordinator</field>
+  </record>
+  <record id="group_oxord_technician" model="res.groups">
+    <field name="name">Oxord / Technician</field>
+  </record>
+  <record id="group_oxord_checker" model="res.groups">
+    <field name="name">Oxord / Checker</field>
+  </record>
+  <record id="group_oxord_cashier" model="res.groups">
+    <field name="name">Oxord / Cashier</field>
+  </record>
+</odoo>
