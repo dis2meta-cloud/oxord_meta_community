@@ -1,5 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_oxord_repair_coordinator,access_oxord_repair_coordinator,model_repair_order,oxord_repair.group_oxord_coordinator,1,1,1,0
-access_oxord_repair_technician,access_oxord_repair_technician,model_repair_order,oxord_repair.group_oxord_technician,1,1,0,0
-access_oxord_repair_checker,access_oxord_repair_checker,model_repair_order,oxord_repair.group_oxord_checker,1,1,0,0
-access_oxord_repair_cashier,access_oxord_repair_cashier,model_repair_order,oxord_repair.group_oxord_cashier,1,1,0,0
