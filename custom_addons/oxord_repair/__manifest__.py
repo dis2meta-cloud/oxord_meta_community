@@ -11,7 +11,6 @@
         'views/repair_order_view.xml',
         'views/repair_action.xml',  
         'views/repair_menu.xml',
-        'data/company_data.xml',
         'data/repair_sequence.xml',
     ],
     'installable': True,

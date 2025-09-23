@@ -1,21 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Sequence for La Hacienda -->
-    <record id="seq_repair_order_lahacienda" model="ir.sequence">
-        <field name="name">OXORD La Hacienda Repair Order</field>
-        <field name="code">repair.order.lahacienda</field>
-        <field name="prefix">ST4/LH/RO/</field>
-        <field name="padding">5</field>
-        <field name="company_id" ref="oxord_repair.company_oxord_lahacienda"/>
-        <field name="implementation">standard</field>
-    </record>
+    <data noupdate="0">
 
-    <!-- Sequence for Robinsons -->
-    <record id="seq_repair_order_robinsons" model="ir.sequence">
-        <field name="name">OXORD Robinsons Repair Order</field>
-        <field name="code">repair.order.robinsons</field>
-        <field name="prefix">ST3/RB/RO/</field>
-        <field name="padding">5</field>
-        <field name="company_id" ref="oxord_repair.company_oxord_robinsons"/>
-        <field name="implementation">standard</field>
-    </record>
+        <record id="seq_repair_order_lahacienda" model="ir.sequence">
+            <field name="name">OXORD La Hacienda Repair Order</field>
+            <field name="code">repair.order.lahacienda</field>
+            <field name="prefix">ST4/RO/</field>
+            <field name="padding">5</field>
+            <field name="implementation">standard</field>
+        </record>
+
+        <record id="seq_repair_order_robinsons" model="ir.sequence">
+            <field name="name">OXORD Robinsons Repair Order</field>
+            <field name="code">repair.order.robinsons</field>
+            <field name="prefix">ST3/RO/</field>
+            <field name="padding">5</field>
+            <field name="implementation">standard</field>
+        </record>
+
+    </data>
 </odoo>
