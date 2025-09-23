@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_repair_order_oxord_custom,access.repair.order.oxord.custom,oxord_repair.model_repair_order,,1,1,1,1
+access_repair_order_technician,access.repair.order.technician,oxord_repair.model_repair_order,oxord_repair.group_repair_technician,1,0,0,0
+access_repair_order_coordinator,access.repair.order.coordinator,oxord_repair.model_repair_order,oxord_repair.group_repair_coordinator,1,1,1,0
+access_stock_move_repair_technician,access.stock.move.repair.technician,stock.model_stock_move,oxord_repair.group_repair_technician,1,0,0,0
+access_stock_move_repair_coordinator,access.stock.move.repair.coordinator,stock.model_stock_move,oxord_repair.group_repair_coordinator,1,0,0,0

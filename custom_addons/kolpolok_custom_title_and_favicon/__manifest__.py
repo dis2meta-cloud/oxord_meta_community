@@ -8,7 +8,7 @@
 
 {
     'name': 'Custom Title and Favicon',
-    'version': '17.0.0.0',
+    'version': '18.0.1.0.0',
     'sequence': 1,
     'summary': """
         This module customizes title and favicon logo, boosting brand recognition and success.

@@ -5,12 +5,12 @@
         This module adds a sidebar to the main screen. The sidebar has a list
         of all installed apps similar to the home menu to ease navigation.
     ''',
-    'version': '17.0.1.1.2',
+    'version': '18.0.1.1.4',
     'category': 'Tools/UI',
     'license': 'LGPL-3', 
     'author': 'MuK IT',
     'website': 'http://www.mukit.at',
-    'live_test_url': 'https://mukit.at/demo',
+    'live_test_url': 'https://my.mukit.at/r/f6m',
     'contributors': [
         'Mathias Markl <mathias.markl@mukit.at>',
     ],

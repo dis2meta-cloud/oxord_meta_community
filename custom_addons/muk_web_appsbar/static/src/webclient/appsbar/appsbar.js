@@ -1,5 +1,3 @@
-/** @odoo-module **/
-
 import { url } from '@web/core/utils/urls';
 import { useService } from '@web/core/utils/hooks';
 
@@ -29,5 +27,8 @@ export class AppsBar extends Component {
             	'MENUS:APP-CHANGED', renderAfterMenuChange
             );
         });
+    }
+    _onAppClick(app) {
+        return this.appMenuService.selectApp(app);
     }
 }
